@@ -15,7 +15,7 @@ module "efs" {
   # Mount targets / security group
   mount_targets              = var.mount_targets
   security_group_description = var.security_group_description
-  security_group_vpc_id      = var.security_group_vpc_id
+  security_group_vpc_id      = vpc-014e7030d00814465
   security_group_rules       = var.security_group_rules
 
 

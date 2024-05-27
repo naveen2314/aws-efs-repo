@@ -17,7 +17,7 @@ mount_targets = {
 }
 
 security_group_description = "First SG Module for testing"
-security_group_vpc_id      = vpc-014e7030d00814465
+#security_group_vpc_id      = vpc-014e7030d00814465
 
 security_group_rules = {
   vpc = {

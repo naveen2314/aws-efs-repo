@@ -33,12 +33,12 @@ variable "security_group_description" {
   default = "value of SG"
 }
 
-variable "security_group_vpc_id" {
-  description = "The VPC ID where the security group will be created"
-  type        = string
-  default     = null
+# variable "security_group_vpc_id" {
+#   description = "The VPC ID where the security group will be created"
+#   type        = string
+#   default     = null
 
-}
+# }
 
 variable "security_group_rules" {
   description = "Map of SG Rule defination to create"
