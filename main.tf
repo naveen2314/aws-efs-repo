@@ -1,5 +1,5 @@
 module "efs" {
-  source = "git::https://github.com/naveen2314/aws-efs-module.git?ref=b1dda64"
+  source = "git::https://github.com/naveen2314/aws-efs-module.git?ref=7864b8b"
 
   # File system
   name           = var.name
